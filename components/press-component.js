@@ -1,7 +1,7 @@
 (function () {
     angular.module('Jeanie')
-        .component('teamComponent', {
-            templateUrl: 'components/team-component.html',
+        .component('pressComponent', {
+            templateUrl: 'components/press-component.html',
           
         })
 
