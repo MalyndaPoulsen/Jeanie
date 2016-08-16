@@ -35,6 +35,12 @@ overflow-x: hidden;
 #row{
     position: relative;
 }
+/*#main2 img{
+text-align: center;
+  height: 20vw;
+margin-top: 17vw;
+   z-index: 33;
+}*/
 #image img{
     position: fixed;
     top: 0%;
@@ -43,6 +49,10 @@ overflow-x: hidden;
 
 #main2 .logo{
     text-align: center;
+    text-align: center;
+  height: 20vw;
+margin-top: 17vw;
+   z-index: 33;
 }
 
 #main2 h3{

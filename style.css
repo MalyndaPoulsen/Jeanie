@@ -14,13 +14,7 @@ font-family: 'PT Sans', sans-serif;
 
 }
 
-#main2 img{
 
-  height: 30vw;
-margin-top: 17
-vw;
-   z-index: 33;
-}
 #triangle-topleft2 {
   position: relative;
  z-index: 30;
@@ -108,7 +102,7 @@ vw;
 
 
 /*subnav*/
-#logo img{
+/*#logo img{
   position: fixed;
   margin-bottom: 0px;
 height: 1%;
@@ -116,7 +110,7 @@ margin-right: -30px;
 top: 0px;
 left: 0px;
 z-index: 10;
-}
+}*/
 
 /*#sub-nav span{
   color: #b7ac68;
