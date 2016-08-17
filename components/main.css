@@ -19,6 +19,9 @@ overflow-x: hidden;
       left: 0%;
 		
 }
+/*#heading{
+    padding-left: 20px;
+}*/
 #image img{
     margin-top: 0px;
 }
@@ -84,7 +87,7 @@ margin-top: 5%;
 
 #main2 .logo{
     text-align: center;
-    text-align: center;
+  
   height: 29%;
 margin-top: 7vw;
    z-index: 33;
