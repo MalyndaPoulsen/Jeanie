@@ -2,10 +2,10 @@
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
- 
+
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -13,10 +13,11 @@
 
   <!--<link href="css/animate.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-  	<link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
   <script async="" src="//www.google-analytics.com/analytics.js"></script>
   <script>
@@ -40,10 +41,10 @@
   <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
   <link href='https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield' rel='stylesheet' type='text/css'>
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="components/main.css">
   <link rel="stylesheet" href="components/about.css">
-  <link rel="stylesheet" href="components/team.css"> 
+  <link rel="stylesheet" href="components/team.css">
   <link rel="stylesheet" href="components/press.css">
   <link rel="stylesheet" href="components/contact.css">
   <link rel="stylesheet" href="components/menu.css">
@@ -63,54 +64,52 @@
 
 
 
-<div class="row formatt">
- <div class="col-xs-2 col-md-2">
+  <div class="row formatt">
+    <div id="nav-container" class="col-xs-2 col-md-2">
 
-  <nav class="navbar navbar-custom navbar-fixed-side">
+      <nav class="navbar navbar-fixed-left">
 
-     <div class="row">
-    <div id="logo" class="col-xs-3">
-     <img src="img/Circadialogo.png" style="height: 50%;" alt="">
+        <div class="row">
+          <div class="col-xs-8 col-xs-offset-2" style="text-align: center;">
+            <div class="navbar">
+              <ul style="position: relative; z-index: 9999;" class="nav">
+
+                <li><a href="#main" class="section-scroll">Home</a></li>
+
+                <li><a href="#about" class="section-scroll">About</a></li>
+                <li><a href="#team" class="section-scroll">OurTeam</a></li>
+                <li><a href="#press" class="section-scroll">Press</a></li>
+                <li><a href="#contact" class="section-scroll">Contact</a></li>
+                <li><a href="#menus" class="section-scroll">Menus</a></li>
+                <li><a href="#calendar" class="section-scroll">Calendar</a></li>
+                <li><a href="#reservations" class="section-scroll">Reservations</a></li>
+
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class="col-xs-8 col-xs-offset-4 col-text-right">
-      <div class="navbar-header">
-        <ul style="position: relative; z-index: 9999;" class="nav navbar-nav navbar-right">
 
-          <li><a href="#main" class="section-scroll">Home</a></li>
+    <!-- /.navbar-collapse -->
 
-          <li><a href="#about" class="section-scroll">About</a></li>
-          <li><a href="#team" class="section-scroll">OurTeam</a></li>
-          <li><a href="#press" class="section-scroll">Press</a></li>
-          <li><a href="#contact" class="section-scroll">Contact</a></li>
-           <li><a href="#menus" class="section-scroll">Menus</a></li>
-            <li><a href="#calendar" class="section-scroll">Calendar</a></li>
+    <!-- /.container-fluid -->
 
 
-        </ul>
-      </div>
+    <div class="col-xs-10 col-md-10">
+
+      <main-component></main-component>
+      <about-component></about-component>
+      <team-component></team-component>
+      <press-component></press-component>
+      <contact-component></contact-component>
+
+      <menu-component></menu-component>
+      <calendar-component></calendar-component>
+
     </div>
-    </div>
-  </nav>
-</div>
-
-  <!-- /.navbar-collapse -->
-
-  <!-- /.container-fluid -->
-
-
-<div class="col-xs-10 col-md-10">
-
-  <main-component></main-component>
-  <about-component></about-component>
-  <team-component></team-component>
-  <press-component></press-component>
-  <contact-component></contact-component>
- 
- <menu-component></menu-component>
-  <calendar-component></calendar-component>
-
-</div>
-</div>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
@@ -120,13 +119,13 @@
 
   <script src="app.js"></script>
   <script src="components/main-component.js"></script>
-<script src="components/about-component.js"></script>
+  <script src="components/about-component.js"></script>
   <script src="components/team-component.js"></script>
   <script src="components/press-component.js"></script>
   <script src="components/contact-component.js"></script>
   <script src="components/menu-component.js"></script>
   <script src="components/calendar-component.js"></script>
- 
+
 </body>
 
 </html>

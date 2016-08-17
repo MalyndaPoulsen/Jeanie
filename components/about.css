@@ -5,8 +5,8 @@
 }
 .module, .module-sm, .module-xs {
     background-color: #fff;
-    /*background-attachment: fixed;*/
-    padding-top: 70px;
+    background-attachment: fixed;
+    /*padding-top: 70px;*/
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,7 +17,15 @@
 }
 
 body {
-    background: white;
+    background: black;
+    /*background: rgb(85, 68, 0);*/
+     /*background: rgb(85, 85, 0);*/
+     /*background: rgb(69, 107, 125);*/
+     /*background: rgb(0, 86, 112);*/
+     /*background: rgb(32, 135, 118);*/
+     /*background: rgb(182, 167, 45);*/
+     /*background: rgb(254, 229, 165); champagne*/
+     /*background: rgb(17, 68, 34);*/
      font-family: 'Slabo 27px', serif;
     line-height: 1.8;
     font-size: 12px;
@@ -28,11 +36,11 @@ body {
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-    font-family: 'Slabo 27px', serif;
+     font-family: 'Roboto', sans-serif;
 }
 .about p{
    
-          font-family: 'Slabo 27px', serif;
+          font-family: 'Roboto', sans-serif;
      color: grey; 
      margin-bottom: 10%;
      /*font-size: 1.5vw;*/
@@ -45,8 +53,11 @@ body {
    color: white;
    margin-bottom: 0px;
 }
+#aboutImage{
+    position: relative;
+}
 
-#shop{
+/*#shop{
     background:black url('/Winery/img/plumb5.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -54,7 +65,7 @@ body {
  background-size: cover;
    height: 100%;
   
-}
+}*/
 /*Ipad */
 @media only screen 
 and (min-device-width : 414px) 
@@ -123,9 +134,15 @@ and (max-device-width : 736px) {
  background-size: cover;
     }
 }*/
-
+.about-logo{
+    text-align: center;
+}
+#aboutlogo{
+    position: relative;
+    height: 18%;
+}
  #shop h1{
-        font-family: 'Satisfy', cursive;
+          font-family: 'Roboto', sans-serif;
       font-size: 4vw;
      position: absolute;
    top: 0vw;
@@ -134,15 +151,15 @@ and (max-device-width : 736px) {
  }
  #shop p{
      color: grey;
-      font-family: 'Slabo 27px', serif;
+       font-family: 'Roboto', sans-serif;
        font-size: 1.5vw;
        position: absolute;
        top: 1px;
        left: 2vw;
  }
- #logo img{
+ #logo{
     
-    height: 57vw;
+    height: 15vw;
     position: absolute;
     right: 50%;
     top: 0vw;

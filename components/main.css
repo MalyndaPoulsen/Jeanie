@@ -1,85 +1,107 @@
    
 body, html{
 overflow-x: hidden;
+   font-family: 'Roboto', sans-serif;
 }
-#main2{
-     background: grey url('/img/caring1.png') center center no-repeat fixed; 
-     z-index: -22;
-      -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;
-    position: relative;
-      text-align: center;
-      margin-right: -15px; 
-      margin-bottom: -15px; 
-      padding-bottom: 0px;
-      top: 0%;
-      left: 0%;
-		
-}
-/*#heading{
-    padding-left: 20px;
-}*/
-#image img{
-    margin-top: 0px;
-}
-  /*#image{
-      margin-right: -15px;
-      padding-right: 0px !important;
-  }*/
-  #main img{
-      margin-bottom: 0px;
-      padding-bottom: 0px;
-  }
+
   #heading .row{
       text-align: center;
   }
-/*
-#row{
-    position: relative;
-}*/
-/*#main2 img{
-text-align: center;
-  height: 20vw;
-margin-top: 17vw;
-   z-index: 33;
-}*/
-/*#image img{
-    position: fixed;
-    top: 0%;
-    left: 0%;
-}*/
-
-
-/*
-#main2 h2{
-      -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #b4a755;
-      font-family: 'Slabo 27px', serif;
-      background-color: black;
-      color: white;
-      font-size: 10vw;
-      position: absolute;
-     text-align: left;
-      top: 90%;
-      left: 18%;
-margin-top: 5%;
-    z-index: 66;
-}*/
-#main2 span{
-    text-align: left;
- letter-spacing: 8px;
-      font-family: 'Slabo 27px', serif;
-      color: white;
-      font-size: 30%;
-    padding-top: 0;
-      position: absolute;
-      top: 90%;
-      left: 1%;
-    z-index: 66;
+   /*For devices 769px and larger: */
+@media only screen and (min-width: 769px) {
+    .logo img{
+    height: 100%;
 }
+
+#main2 .logo{
+    text-align: center;
+  height: 29%;
+margin-top: 7vw;
+   z-index: 33;
+}
+#main2 h3{
+      font-family: 'Roboto', sans-serif;
+      /*font-size: 5vw;*/
+      padding-top: 150px;
+      margin-top: 8vw;
+      margin-bottom: 15vw;
+      z-index: 999;
+      color:white;
+      
+}
+}
+
+ /*For devices 400px and larger: */
+@media only screen and (min-width: 981px) {
+    .logo img{
+    height: 100%;
+}
+
+#main2 .logo{
+    text-align: center;
+  height: 29%;
+margin-top: 7vw;
+   z-index: 33;
+}
+#main2 h3{
+        font-family: 'Roboto', sans-serif;
+      /*font-size: 5vw;*/
+      padding-top: 100px;
+      margin-top: 6vw;
+      margin-bottom: 10vw;
+      z-index: 999;
+      color:white;
+      
+}
+}
+
+
+/*default*/
+#main2 h3{
+        font-family: 'Roboto', sans-serif;
+      /*font-size: 5vw;*/
+      padding-top: 0px;
+      margin-top: 8vw;
+      margin-bottom: 12%;
+      z-index: 999;
+      color:white;
+      
+}
+
+
+/*For devices 414px and smaller: */
+@media only screen and (max-width: 414px) {
+#main2 h3{
+     font-family: 'Roboto', sans-serif;
+      /*font-size: 5vw;*/
+      padding-top: 0px;
+      margin-top: 3vw;
+      margin-bottom: 0vw;
+      z-index: 999;
+      color:white;
+      
+}
+#main2 .logo{
+    text-align: center;
+  height: 15%;
+margin-top: 7vw;
+   z-index: 33;
+}
+.logo img{
+    height: 80%;
+}
+}
+
+
+
+#main2{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.logo h3{
+    margin-bottom: 0px;
+}
+
 
 .logo img{
     height: 100%;
@@ -87,24 +109,13 @@ margin-top: 5%;
 
 #main2 .logo{
     text-align: center;
-  
-  height: 29%;
+  height: 19%;
 margin-top: 7vw;
    z-index: 33;
 }
 
 
-#main2 h3{
-      font-family: 'Satisfy', cursive;
-      font-size: 5vw;
-      padding-top: 100px;
-      margin-top: 8vw;
-      margin-bottom: 0px;
-      z-index: 999;
-      color:white
-      ;
-      
-}
+
 #scroller{
 animation-duration: 2s;
 animation-delay: 2s;
