@@ -2,7 +2,20 @@
 body, html{
 overflow-x: hidden;
    font-family: 'Roboto', sans-serif;
+ 
+     font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    font-size: 12px;
+    -ms-overflow-style: scrollbar;
 }
+.logo .p{
+   
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-bottom: 15%;
+     font-size: 1.5vw; 
+}
+
 
   #heading .row{
       text-align: center;
@@ -40,17 +53,26 @@ overflow-x: hidden;
       margin-bottom: 20px;
   }
   .logo p{
-      margin-top: 5%;
-      margin-bottom: 10%;
+     margin-bottom: 10px;
       padding-bottom: 20px;
-      font-size: 2vw;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+      
 
   }
 }
 
   /*For devices 769px and larger: */
-@media only screen and (min-width: 769px){
-
+@media only screen and (min-width: 768px){
+.logo p {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-top: 60px;
+}
 }
 /*For devices 435px and smaller: */
 @media only screen and (max-width: 435px) {
@@ -98,15 +120,17 @@ overflow-x: hidden;
   .logo img{
     
       position: relative;
-      height: 20%;
+      height: 10%;
       margin-top: 15px;
       margin-bottom: 20px;
   }
   .logo p{
-      margin-bottom: 10%;
+      margin-bottom: 10px;
       padding-bottom: 20px;
-      font-size: 2vw;
-
+  
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.4;
   }
 
 

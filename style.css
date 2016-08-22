@@ -60,6 +60,25 @@
        background-color:transparent !important;
       color: grey;
    }
+
+   @media only screen and (min-width: 992px) {
+  .navbar {
+    position: fixed;
+    margin-top: 15px;
+  left: -60;
+    margin-right: 15px;
+    
+}
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 1vw;
+     padding-bottom: 5vw;
+    font-size: 1.5vw;
+   
+}
+}
  /*For devices 981px and larger: */
 @media only screen and (min-width: 981px) {
 
@@ -67,7 +86,7 @@
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 1vw;
     font-size: 1vw;
    
 }
@@ -84,7 +103,7 @@
   
   position: fixed;
   /*left: 0%;*/
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 15px;
   margin-right: 15px;
       
@@ -95,12 +114,12 @@
 
 .nav>li>a {
    padding-bottom: 5vw;
-    font-size: 2vw;
+ 
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
-    font-size: 2vw;
+    margin-top: 1vw;
+    font-size: 1vw;
    
 }
 }
@@ -127,7 +146,7 @@
   position: fixed;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
     font-size: 5vw;
     text-align: right;
     font-weight: 400px;
@@ -147,7 +166,7 @@
   position: fixed;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
     font-size: 2vw;
    
 }
@@ -173,7 +192,7 @@
   position: fixed;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
     font-size: 2vw;
    
 }
@@ -189,12 +208,12 @@
     margin-right: 15px;
 }
 .nav>li>a {
-  padding-bottom: 5vw;
+  padding-bottom: 2vw;
     font-size: 2vw;
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
    
 }
 }
@@ -204,14 +223,14 @@
     position: fixed;
     margin-top: 15px;
          /*right: 200.656;*/
-    margin-right: 15px;
-        right: 245.656;
+   
+        right: 235.656;
 }
 .nav>li>a {
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
      padding-bottom: 5vw;
     font-size: 2vw;
    
@@ -231,7 +250,7 @@
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2vw;
+    margin-top: 9vw;
     font-size: 2vw;
    
 }
