@@ -6,7 +6,8 @@
 .module, .module-sm, .module-xs {
     background-color: #fff;
     background-attachment: fixed;
-    /*padding-top: 70px;*/
+    margin-top: 15%;
+    padding-top: 70px;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -19,19 +20,61 @@
 body {
     background: black;
     /*background: rgb(85, 68, 0);*/
+    /*shit gold^^^^*/
      /*background: rgb(85, 85, 0);*/
+     /*dark green ^^^*/
      /*background: rgb(69, 107, 125);*/
+     /*teal blue ^^^*/
      /*background: rgb(0, 86, 112);*/
+     /*blue ^^^*/
      /*background: rgb(32, 135, 118);*/
+     /*teal green ^^^*/
      /*background: rgb(182, 167, 45);*/
-     /*background: rgb(254, 229, 165); champagne*/
+     /*yellow gold*/
+     /*background: rgb(254, 229, 165); champagne #FEE5A5*/
      /*background: rgb(17, 68, 34);*/
-     font-family: 'Slabo 27px', serif;
+     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
     /*overflow-x: hidden;*/
 }
+ 
+ /*For devices 981px and larger: */
+/*@media only screen and (min-width: 981px) {
+
+}*/
+
+  /*For devices 769px and larger: */
+@media only screen and (min-width: 768px){
+.module, .module-sm, .module-xs {
+    background-color: #fff;
+    background-attachment: fixed;
+    margin-top: 6%;
+    padding-top: 70px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+/*For devices 435px and smaller: */
+/*@media only screen and (max-width: 435px) {
+  
+}*/
+
+/*For devices 414px and smaller: */
+/*@media only screen and (max-width: 414px) {
+  
+}*/
+/*For devices 320px and smaller: */
+/*@media only screen and (max-width: 320px) {
+  
+}*/
+
 .about h2{
     margin-top: 5%;
     padding-top: 0;
@@ -45,95 +88,18 @@ body {
      margin-bottom: 10%;
      /*font-size: 1.5vw;*/
 }
-#about{
+/*#about{
    padding-top: 44px;
    padding-bottom: 15px;
    /*margin-top: 25%;*/
-   background-color: black;
+   /*background-color: black;
    color: white;
    margin-bottom: 0px;
-}
+}*/
 #aboutImage{
     position: relative;
 }
 
-/*#shop{
-    background:black url('/Winery/img/plumb5.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;
-  
-}*/
-/*Ipad */
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) { 
-    #shop{
-    background:black url('/Winery/img/plumb3.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;}
-}
-
-
-/*ipad*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
- { 
-    #shop{
-    background:black url('/Winery/img/plumb5.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;}
-}
-
-/*iphone 6*/
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-    #shop{
-    background:black url('/Winery/img/plumb3.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;
-  
-}
-}
-
-/*ipone 6 plus*/
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {     
-    #shop{
-    background:black url('/Winery/img/plumb3.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-   height: 100%;
-  
-}
-}
-
- /*For devices 400px and larger: 
-@media only screen and (min-width: 981px) {
-    #shop{ 
-        background: url('/Winery/img/plumb2.jpg') center center no-repeat fixed; 
-         -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-    }
-}*/
 .about-logo{
     text-align: center;
 }
@@ -141,26 +107,99 @@ and (max-device-width : 736px) {
     position: relative;
     height: 18%;
 }
- #shop h1{
-          font-family: 'Roboto', sans-serif;
-      font-size: 4vw;
-     position: absolute;
-   top: 0vw;
-   left: 2vw;
-      color: lightgrey;
- }
- #shop p{
-     color: grey;
-       font-family: 'Roboto', sans-serif;
-       font-size: 1.5vw;
-       position: absolute;
-       top: 1px;
-       left: 2vw;
- }
+
+
  #logo{
     
-    height: 15vw;
+    height: 14vw;
     position: absolute;
     right: 50%;
     top: 0vw;
  }
+ #about{
+     margin-left: -15px;
+ }
+
+   /*swap main image for mobile*/
+.image4{
+   display: none;
+}
+
+@media only screen and (max-width: 500px){ 
+   .image3{
+     display: none;
+   }
+
+   .image4{
+     display: block;
+   }
+}
+ .image3{
+     z-index: 22; 
+     top: 0%; 
+     left: -25%; 
+     background-size: cover; 
+     width: 200%; 
+     background-repeat: no-repeat; 
+     position: absolute; 
+     margin-left: -15px;
+			margin-right: -30px; 
+            margin-bottom: -15px; 
+            padding-bottom: 0px; 
+            padding-top: 0px;
+ }
+  .image4{
+     z-index: 22; 
+     top: 0%; 
+     left: 0%; 
+       margin-left: -15px;
+     background-size: cover; 
+     width: 150%; 
+     background-repeat: no-repeat; 
+     position: absolute; 
+			margin-right: -30px; 
+            margin-bottom: -15px; 
+            padding-bottom: 0px; 
+            padding-top: 0px;
+            margin-top: -20px;
+ }
+  @media only screen and (max-width: 330px){
+ #about{
+     margin-top: -45px;
+ }
+}
+ @media only screen and (min-width: 375px){
+ #about{
+     margin-top: 45px;
+ }
+}
+  @media only screen and (max-width: 360px){
+ #about{
+     margin-top: 25px;
+ }
+}
+ @media only screen and (min-width: 411px){
+ #about{
+     margin-top: 50px;
+ }
+}
+ @media only screen and (min-width: 500px){
+ #about{
+     margin-top: -45px;
+ }
+}
+ @media only screen and (min-width: 600px){
+ #about{
+     margin-top: 0px;
+ }
+}
+ @media only screen and (min-width: 768px){
+ #about{
+     margin-top: -10px;
+ }
+}
+ @media only screen and (min-width: 800px){
+ #about{
+     margin-top: 35px;
+ }
+}
