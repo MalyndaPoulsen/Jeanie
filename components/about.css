@@ -1,13 +1,12 @@
 
-.module, .module-sm, .module-xs, .footer {
+.module3, .module3-sm, .module3-xs, .footer {
     padding-left: 20px;
     padding-right: 20px;
 }
-.module, .module-sm, .module-xs {
-    background-color: black;
+.module3, .module3-sm, .module3-xs {
+
     background-attachment: fixed;
-    margin-top: 15%;
-    padding-top: 70px;
+  
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -139,7 +138,7 @@ body {
      top: 0%; 
      left: -25%; 
      background-size: cover; 
-     width: 200%; 
+     width: 100%; 
      background-repeat: no-repeat; 
      position: absolute; 
      margin-left: -15px;

@@ -4,8 +4,8 @@ position: relative;
 .module2{
     background-color: black;
     background-attachment: fixed;
-    margin-top: 15%;
-    padding-top: 70px;
+    /*margin-top: 15%;
+    padding-top: 70px;*/
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
@@ -124,7 +124,7 @@ position: relative;
  .image3{
      z-index: 22; 
      top: 0%; 
-     left: -25%; 
+     left: -35%; 
      background-size: cover; 
      width: 200%; 
      background-repeat: no-repeat; 
