@@ -1,9 +1,9 @@
 
-.module3, .module3-sm, .module3-xs, .footer {
+/*.module3, .module3-sm, .module3-xs, .footer {
     padding-left: 20px;
     padding-right: 20px;
-}
-.module3, .module3-sm, .module3-xs {
+}*/
+/*.module3, .module3-sm, .module3-xs {
 
     background-attachment: fixed;
   
@@ -14,6 +14,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}*/
+.aboutUs img{
+
 }
 
 body {
@@ -134,7 +137,7 @@ body {
    }
 }
  .image3{
-     z-index: 22; 
+     z-index: 12; 
      top: 0%; 
      left: -25%; 
      background-size: cover; 
@@ -148,7 +151,7 @@ body {
             padding-top: 0px;
  }
   .image4{
-     z-index: 22; 
+     z-index: 12; 
      top: 0%; 
      left: 0%; 
        margin-left: -15px;

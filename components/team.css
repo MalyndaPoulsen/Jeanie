@@ -1,29 +1,49 @@
 #teamimage{
 position: relative;
 }
-.module2{
+#team{
     background-color: black;
-    background-attachment: fixed;
-    /*margin-top: 15%;
-    padding-top: 70px;*/
-    position: relative;
+    background-attachment: relative;
+    margin-top: 55%;
+    padding-top: 70px;
+    position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: 433;
-}
+     z-index: 22;
+    /*z-index: 433;
+    margin-left: -15px;
+    margin-right: -15px;
+    top: 0%;
+    left: -35;
+    width: 110%;*/
 
-.module2, .footer {
+}
+/*
+.module4, .footer {
     padding-left: 20px;
     padding-right: 20px;
-}
+}*/
 
 #team{
     position: relative;
     background: black;
+}
+#team h2{
+    margin-top: 5%;
+    padding-top: 0;
+    color: #b4a755;
+     font-family: 'Roboto', sans-serif;
+}
+#team p{
+   
+          font-family: 'Roboto', sans-serif;
+     color: grey; 
+     margin-bottom: 15%;
+     /*font-size: 1.5vw;*/
 }
 
  
@@ -33,7 +53,7 @@ position: relative;
 }*/
 
   /*For devices 769px and larger: */
-@media only screen and (min-width: 768px){
+/*@media only screen and (min-width: 768px){
 .module-hero, .module-hero-sm, .module-hero-xs {
     background-color: black;
     background-attachment: fixed;
@@ -47,7 +67,7 @@ position: relative;
     -o-background-size: cover;
     background-size: cover;
 }
-}
+}*/
 /*For devices 435px and smaller: */
 /*@media only screen and (max-width: 435px) {
   
