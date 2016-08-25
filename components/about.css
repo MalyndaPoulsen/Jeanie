@@ -16,7 +16,18 @@
     background-size: cover;
 }*/
 .aboutUs img{
-
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#about-container .about{
+    background-color: black;
+    padding-top: 10%;
 }
 
 body {
@@ -48,7 +59,7 @@ body {
 }*/
 
   /*For devices 769px and larger: */
-@media only screen and (min-width: 768px){
+/*@media only screen and (min-width: 768px){
 .module, .module-sm, .module-xs {
     background-color: black;
     background-attachment: fixed;
@@ -62,7 +73,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-}
+}*/
 /*For devices 435px and smaller: */
 /*@media only screen and (max-width: 435px) {
   
@@ -137,13 +148,13 @@ body {
    }
 }
  .image3{
-     z-index: 12; 
-     top: 0%; 
-     left: -25%; 
+     /*z-index: -20; */
+     /*top: 0%; 
+     left: -25%; */
      background-size: cover; 
      width: 100%; 
      background-repeat: no-repeat; 
-     position: absolute; 
+     position: center; 
      margin-left: -15px;
 			margin-right: -30px; 
             margin-bottom: -15px; 
@@ -151,9 +162,9 @@ body {
             padding-top: 0px;
  }
   .image4{
-     z-index: 12; 
-     top: 0%; 
-     left: 0%; 
+     /*z-index: 12; */
+     /*top: 0%; 
+     left: 0%; */
        margin-left: -15px;
      background-size: cover; 
      width: 150%; 
