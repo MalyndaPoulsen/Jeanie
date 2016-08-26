@@ -55,9 +55,12 @@
 }
 .form-group .btn{
     background-color: black;
-    border: 2px solid darkred
+    border: 2px solid white;
 }
 .form-group .btn:hover{
     background-color: #b4a755;
-    border: 1px solid darkgoldenrod;
+    border: 1px solid white;
 }
+
+
+/*new form*/

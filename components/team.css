@@ -65,7 +65,7 @@ margin-bottom: 20%;
     border: 1px solid  #b4a755;
 }
  #Andrea .btn{
-    border: 1px solid  #b4a755;  
+      border: 1px solid  #b4a755;
  }
  /*For devices 981px and larger: */
 /*@media only screen and (min-width: 981px) {
