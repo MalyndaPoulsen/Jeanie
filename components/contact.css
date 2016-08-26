@@ -21,3 +21,35 @@
 /*@media only screen and (max-width: 320px) {
   
 }*/
+
+#contact{
+    background-color: lightgrey;
+    margin-left:  -15px;
+}
+
+
+
+
+.me a{
+    font-size: 2vw;
+     font-family: 'Mrs Saint Delafield', cursive;
+     color: lightgrey;
+     margin-top: 0px;
+}
+.me .fa{
+    font-size: 2vw;
+
+}
+.me{
+    background-color: black;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2%;
+    margin-right: -30px;
+    margin-left: -30px;
+   /*margin-bottom: 5%;*/
+}
+.map{
+    height: 700px;
+}
