@@ -4,8 +4,8 @@ position: relative;
 #team{
     background-color: black;
     background-attachment: relative;
-    margin-top: 55%;
-    padding-top: 90px;
+    margin-top: 65%;
+    padding-top: 5%;
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
@@ -14,13 +14,7 @@ position: relative;
     -o-background-size: cover;
     background-size: cover;
      z-index: 22;
-    /*z-index: 433;
-    margin-left: -15px;
-    margin-right: -15px;
-    top: 0%;
-    left: -35;
-    width: 110%;*/
-
+ 
 }
 #teamImage container-fluid{
     margin-left: -15px;
@@ -30,13 +24,18 @@ position: relative;
 }
 #teamImage img{
     width: 100%;
+    margin-top: -15%;
 }
-/*
-.module4, .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-}*/
-
+#teamImage2 img{
+    width: 100%;
+    margin-top: -1%;
+}
+#teamImage2 container-fluid{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 #team{
     position: relative;
     top: 0%;
@@ -49,15 +48,25 @@ position: relative;
     color: #b4a755;
      font-family: 'Roboto', sans-serif;
 }
+#team h3{
+    color:  #b4a755;
+}
+.team{
+margin-bottom: 20%;
+}
 #team p{
    
           font-family: 'Roboto', sans-serif;
      color: grey; 
-     margin-bottom: 15%;
+     margin-bottom: 5%;
      /*font-size: 1.5vw;*/
 }
-
- 
+#Garret .btn{
+    border: 1px solid  #b4a755;
+}
+ #Andrea .btn{
+       border: 1px solid  #b4a755;
+ }
  /*For devices 981px and larger: */
 /*@media only screen and (min-width: 981px) {
 
