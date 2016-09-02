@@ -2,24 +2,23 @@
 body, html{
 overflow-x: hidden;
    font-family: 'Roboto', sans-serif;
- 
-     font-family: 'Roboto', sans-serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
 }
-
+/*.font_3{
+      font: normal normal normal 50px/1.4em wfont_3a5df7_b281f016912f43548072512ea97ddc20,wf_b281f016912f43548072512ea,orig_landmark-inline;
+}*/
 
   .logo{
       position: relative;
       margin-right: -15px;
   }
   .logo img{
-    
-      position: relative;
-      height: 13%;
-      margin-top: 15px;
-      margin-bottom: 20px;
+    position: relative;
+    height: 30%;
+    margin-top: 71px;
+    margin-bottom: -40px;
   }
   .logo p{
     font-family: 'Roboto', sans-serif;
@@ -29,6 +28,7 @@ overflow-x: hidden;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
+    text-shadow:rgba(0, 0, 0, 0.4)
   }
 
 
@@ -82,9 +82,9 @@ overflow-x: hidden;
 @media only screen and (min-width: 768px){
        .logo img{
       position: relative;
-      height: 20%;
+      height: 29%;
       margin-top: 71px;
-      margin-bottom: 20px;
+      margin-bottom: 10%;
   }
 .logo p{
     margin-bottom: 10px;
@@ -109,7 +109,7 @@ overflow-x: hidden;
 @media only screen and (max-width: 320px) {
          .logo img{
       position: relative;
-      height: 13%;
+      height: 19%;
       margin-top: 15px;
       margin-bottom: 10px;
   }

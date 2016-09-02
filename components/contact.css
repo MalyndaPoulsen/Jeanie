@@ -21,12 +21,37 @@
 /*@media only screen and (max-width: 320px) {
   
 }*/
-
+#contacts{
+    background-color: lightgrey;
+    margin-left: -15px;
+    
+}
 #contact{
     background-color: lightgrey;
     margin-left:  -15px;
 }
+#contactlogo{
+         position: relative;
+      height: 29%;
+      margin-top: 5%;
+      margin-bottom: 0%;
+}
+.contact-logo{
+    text-align: center;
+}
+#contactlogo{
+    position: relative;
+    height: 13%;
+}
 
+
+ #logo{
+    
+    height: 14vw;
+    position: absolute;
+    right: 50%;
+    top: 0vw;
+ }
 
 
 
