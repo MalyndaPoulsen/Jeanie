@@ -9,6 +9,12 @@ overflow-x: hidden;
 /*.font_3{
       font: normal normal normal 50px/1.4em wfont_3a5df7_b281f016912f43548072512ea97ddc20,wf_b281f016912f43548072512ea,orig_landmark-inline;
 }*/
+#me{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+
+}
 
   .logo{
       position: relative;

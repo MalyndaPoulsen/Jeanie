@@ -17,7 +17,7 @@
                 });
             }
         });
-    
+     $('#me').animateCss('zoomIn')
     $('#scroller').animateCss('flash');
 
 
