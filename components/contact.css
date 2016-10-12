@@ -33,7 +33,7 @@
     
 }
 #contact{
-    background-color: #b4a755;
+   background:rgb(69, 107, 125);
     margin-left:  -15px;
 }
 #contactlogo{
@@ -41,6 +41,8 @@
       height: 29%;
       margin-top: 5%;
       margin-bottom: 0%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter:         drop-shadow(5px 5px 5px #222); 
 }
 .contact-logo{
     text-align: center;
