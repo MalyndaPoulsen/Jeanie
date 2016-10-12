@@ -22,7 +22,9 @@
   
 }*/
 .end{
-    background-color: black;
+ border-top: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #googleMap{
     padding-top: 5%;
@@ -55,9 +57,7 @@
 #location p, h5{
 color: lightgrey;
 }
-#location{
-    margin-top: 5%;
-}
+
  #logo{
     
     height: 14vw;
@@ -102,5 +102,6 @@ color: lightgrey;
 
 #submit button{
     color: lightgrey;
+    float: left;
 }
 /*new form*/
