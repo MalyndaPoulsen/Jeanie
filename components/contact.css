@@ -21,13 +21,19 @@
 /*@media only screen and (max-width: 320px) {
   
 }*/
+.end{
+    background-color: black;
+}
+#googleMap{
+    padding-top: 5%;
+}
 #contacts{
     background-color: lightgrey;
     margin-left: -15px;
     
 }
 #contact{
-    background-color: lightgrey;
+    background-color: #b4a755;
     margin-left:  -15px;
 }
 #contactlogo{
@@ -44,7 +50,12 @@
     height: 13%;
 }
 
-
+#location p, h5{
+color: lightgrey;
+}
+#location{
+    margin-top: 5%;
+}
  #logo{
     
     height: 14vw;
@@ -87,5 +98,7 @@
     border: 1px solid white;
 }
 
-
+#submit button{
+    color: lightgrey;
+}
 /*new form*/

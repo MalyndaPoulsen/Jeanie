@@ -13,7 +13,7 @@ overflow-x: hidden;
 animation-duration: 2s;
 animation-delay: 0s;
 animation-iteration-count: 1;
-
+ text-shadow:rgba(0, 0, 0, 0.4)
 }
 
   .logo{
@@ -22,19 +22,20 @@ animation-iteration-count: 1;
   }
   .logo img{
     position: relative;
-    height: 30%;
-    margin-top: 71px;
-    margin-bottom: -40px;
+    height: 28%;
+    margin-top: -5%;
+    /*margin-bottom: -40px;*/
   }
   .logo p{
     font-family: 'Roboto', sans-serif;
-    color: black;
-      margin-bottom: 10px;
-      padding-bottom: 20px;
+    color: white;
+    margin-top: 10%;
+      margin-bottom: 2%;
+      padding-bottom: 7%;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
-    text-shadow:rgba(0, 0, 0, 0.4)
+   text-shadow: 2px 2px black;
   }
 
 
