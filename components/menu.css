@@ -1,3 +1,11 @@
+  body, html{
+overflow-x: hidden;
+   font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    font-size: 12px;
+    -ms-overflow-style: scrollbar;
+}
+  
    #all-menus{
 background-color: black;
     /*height: 100%;*/
@@ -181,3 +189,27 @@ position: absolute;
  .menues{
 margin-left: -15px;
  }
+ #taste{
+     font-family: 'Roboto', sans-serif;
+    color: white;
+ 
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-shadow: 2px 2px black;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+
+}
+.disclaimer{
+    color: lightgrey; 
+    text-align: center; 
+    margin-top: 0px; 
+    padding-top: 0px; 
+    margin-bottom: 5%;
+}
+.menus{
+    background-color: grey;
+    
+}

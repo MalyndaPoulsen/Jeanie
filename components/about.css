@@ -1,20 +1,5 @@
 
-/*.module3, .module3-sm, .module3-xs, .footer {
-    padding-left: 20px;
-    padding-right: 20px;
-}*/
-/*.module3, .module3-sm, .module3-xs {
 
-    background-attachment: fixed;
-  
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
 .aboutUs img{
     background-attachment: fixed;
     position: relative;
@@ -230,7 +215,7 @@ body {
 .brighten img:hover {
   -webkit-filter: brightness(0%);
 }*/
-.brighten img{
+/*.brighten img{
    
     filter: none;
     -webkit-filter: grayscale(100%);
@@ -246,4 +231,4 @@ body {
     -moz-filter:    grayscale(0%);
     -ms-filter:     grayscale(0%);
     -o-filter:      grayscale(0%);
-  }
+  }*/
