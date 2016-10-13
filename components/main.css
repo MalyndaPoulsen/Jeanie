@@ -1,7 +1,8 @@
    
 body, html{
 overflow-x: hidden;
-   font-family: 'Roboto', sans-serif;
+font-family: 'Abhaya Libre', serif;
+   /*font-family: 'Roboto', sans-serif;*/
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
@@ -27,7 +28,8 @@ animation-iteration-count: 1;
     /*margin-bottom: -40px;*/
   }
   .logo p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Abhaya Libre', serif;
+    /*font-family: 'Roboto', sans-serif;*/
     color: white;
     margin-top: 10%;
       margin-bottom: 2%;
@@ -75,6 +77,7 @@ animation-iteration-count: 1;
       margin-bottom: 20px;
   }
   .logo p{
+    font-family: 'Abhaya Libre', serif;
      margin-bottom: 10px;
       padding-bottom: 20px;
     font-size: 12px;
@@ -94,6 +97,7 @@ animation-iteration-count: 1;
       margin-bottom: 10%;
   }
 .logo p{
+  font-family: 'Abhaya Libre', serif;
     margin-bottom: 10px;
     padding-bottom: 20px;
     font-size: 2.5vw;

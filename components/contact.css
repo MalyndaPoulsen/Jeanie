@@ -21,8 +21,11 @@
 /*@media only screen and (max-width: 320px) {
   
 }*/
+html, a, li, p, h1, h2, h3, h4, h5, {
+    font-family: 'Abhaya Libre', serif;
+}
 .end{
- border-top: 1px solid black;
+ border-top: 1px solid lightgrey;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -36,9 +39,10 @@
     margin-left: -15px;
     
 }
+
 #contact{
-   background:rgb(69, 107, 125);
-    margin-left:  -15px;
+   background: black;
+    /*margin-left:  -15px;*/
 }
 #contactlogo{
          position: relative;
@@ -56,10 +60,12 @@
     height: 13%;
 }
 
-#location p, h5{
-color: lightgrey;
+#location p, h5, h3, label{
+color: grey;
 }
-
+#banner h2{
+   color: #b4a755; 
+}
  #logo{
     
     height: 14vw;

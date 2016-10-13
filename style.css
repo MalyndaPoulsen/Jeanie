@@ -28,10 +28,12 @@
   /*body { padding-bottom: 70px; }*/
   body{
      overflow-y: hidden;
+     font-family: 'Abhaya Libre', serif;
     
   }
   body, p, li, a{
-   font-family: 'Roboto', sans-serif;
+   /*font-family: 'Roboto', sans-serif;*/
+   font-family: 'Abhaya Libre', serif;
   }
 .navbar-fixed-top {
  /*margin-right: -15px;*/

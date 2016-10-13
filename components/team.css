@@ -46,7 +46,8 @@ position: relative;
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-     font-family: 'Roboto', sans-serif;
+     /*font-family: 'Roboto', sans-serif;*/
+     font-family: 'Abhaya Libre', serif;
 }
 #team h3{
     color:  #b4a755;
@@ -55,8 +56,8 @@ position: relative;
 margin-bottom: 20%;
 }
 #team p{
-   
-          font-family: 'Roboto', sans-serif;
+   font-family: 'Abhaya Libre', serif;
+          /*font-family: 'Roboto', sans-serif;*/
      color: grey; 
      margin-bottom: 5%;
      /*font-size: 1.5vw;*/
@@ -106,11 +107,12 @@ margin-bottom: 20%;
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Abhaya Libre', serif;
+     /*font-family: 'Roboto', sans-serif;*/
 }
 .team p{
-   
-          font-family: 'Roboto', sans-serif;
+   font-family: 'Abhaya Libre', serif;
+          /*font-family: 'Roboto', sans-serif;*/
      color: grey; 
      margin-bottom: 15%;
      /*font-size: 1.5vw;*/

@@ -1,6 +1,7 @@
   body, html{
 overflow-x: hidden;
-   font-family: 'Roboto', sans-serif;
+   /*font-family: 'Roboto', sans-serif;*/
+   font-family: 'Abhaya Libre', serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
@@ -87,8 +88,8 @@ background-color: black;
    
 body, html{
 overflow-x: hidden;
-   font-family: 'Roboto', sans-serif;
-     font-family: 'Roboto', sans-serif;
+   /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Abhaya Libre', serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
@@ -190,9 +191,9 @@ position: absolute;
 margin-left: -15px;
  }
  #taste{
-     font-family: 'Roboto', sans-serif;
-    color: white;
- 
+     font-family: 'Abhaya Libre', serif;
+     /*font-family: 'Roboto', sans-serif;*/
+    color: #5E5949;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
@@ -203,13 +204,42 @@ animation-iteration-count: 1;
 
 }
 .disclaimer{
-    color: lightgrey; 
+    color: rgb(107, 101, 83); 
     text-align: center; 
     margin-top: 0px; 
     padding-top: 0px; 
     margin-bottom: 5%;
 }
-.menus{
-    background-color: grey;
+#all-menus{
+  background-color: black;
     
 }
+  .menu-text{
+  background-color: #B0A478;
+
+  }
+  .menu-text li{
+        list-style-type: none;
+  }
+  .menus h3{
+      color: #5E5949;
+      padding-top: 5%;
+      background-color: rgba(107, 101, 83, .09);
+  }
+    .menus h5{
+      color: black;
+            padding-bottom: 1%;
+  }
+    .menus li{
+      /*background-color: #B0A680;*/
+      margin-bottom: 2%;
+  }
+    .menus li:hover{
+      /*background-color: #B0A680;*/
+      margin-bottom: 2%;
+       box-shadow: 5px 5px 2px #827B65;
+       
+  }
+  .menus h2{
+      margin-top: 10%;
+  }

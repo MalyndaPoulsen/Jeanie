@@ -31,7 +31,8 @@ body {
      /*yellow gold*/
      /*background: rgb(254, 229, 165); champagne #FEE5A5*/
      /*background: rgb(17, 68, 34);*/
-     font-family: 'Roboto', sans-serif;
+     /*font-family: 'Roboto', sans-serif;*/
+     font-family: 'Abhaya Libre', serif;
     line-height: 1.8;
     font-size: 12px;
     -ms-overflow-style: scrollbar;
@@ -77,11 +78,12 @@ body {
     margin-top: 5%;
     padding-top: 0;
     color: #b4a755;
-     font-family: 'Roboto', sans-serif;
+     /*font-family: 'Roboto', sans-serif;*/
+     font-family: 'Abhaya Libre', serif;
 }
 .about p{
-   
-          font-family: 'Roboto', sans-serif;
+   font-family: 'Abhaya Libre', serif;
+          /*font-family: 'Roboto', sans-serif;*/
      color: grey; 
         margin-bottom: 18%;
      /*font-size: 1.5vw;*/
