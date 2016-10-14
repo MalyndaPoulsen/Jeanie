@@ -304,7 +304,7 @@ animation-iteration-count: 1;
        color:black;
    font-size: 1vw;
 }
-.list-item-group {
+.list-group-item {
     position: relative;
     display: block;
     padding: 10px 15px;
@@ -314,7 +314,7 @@ animation-iteration-count: 1;
     /* background-color: #fff; */
     /* border: 1px solid #ddd; */
 }
-.list-item-group p{
+.list-group-item p{
     font-size: 14px;
 }
 .disclaimer p{
