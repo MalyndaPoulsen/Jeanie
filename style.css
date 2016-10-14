@@ -36,49 +36,44 @@
    font-family: 'Abhaya Libre', serif;
   }
 .navbar-fixed-top {
- /*margin-right: -15px;*/
+
   position: fixed;
   border-radius: 0;
   height: 4.5vw;
   z-index: 999;
 
 }
+
+
 .navbar-nav{
   margin: 0px;
 
 }
 .navbar{
   position: fixed;
-  padding-top: 5%;
-
+  padding-top: 2%;
+padding-left: 2%;
 }
 
-   /*.nav {
-    text-align: center;
-    right: 45px;
-      /*padding-right: 2vw;*/
-  
-   /*}*/
    .nav>li>a:hover{
        background-color:transparent !important;
       color: grey;
    }
 
    @media only screen and (min-width: 992px) {
-  /*.navbar {
+  .navbar {
     position: fixed;
     margin-top: 5px;
-  left: -60;
     margin-right: 15px;
     
-}*/
+}
 .nav>li>a {
   position: relative;
     z-index: 9999;
        color: white;
     margin-top: 1vw;
      padding-bottom: 5vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
    
 }
 }
@@ -89,15 +84,14 @@
   position: relative;
     z-index: 9999;
        color: white;
-    /*margin-top: 1vw;*/
     font-size: .5vw;
    
 }
-/*.nav{
+.nav{
   left: 50px;
   text-align: right;
   margin-top: -15px;
-}*/
+}
 }
 
  /*For devices 769px and larger: */
@@ -116,7 +110,6 @@ margin-top: -5px;
   position: relative;
     z-index: 9999;
        color: white;
-    /*margin-top: 1px;*/
     font-size: 1vw;
    
 }
@@ -124,20 +117,12 @@ margin-top: -5px;
 @media only screen and (max-width: 435){
   .nav{
   text-align: right;
-  /*right: 80px;*/
 }
 }
 
 
 
 @media only screen and (max-width: 435px) {
-/*.navbar {
-    position: fixed;
-    margin-top: 20px;
-      /*right: 120;*/
-    /*margin-right: 15px;
-
-}*/
 
 .nav>li>a {
    padding-bottom: 5vw;
@@ -152,12 +137,7 @@ margin-top: -5px;
 }
 /*For devices 414px and smaller: */
 @media only screen and (max-width: 414px) {
-/*.navbar {
-    position: fixed;
-    margin-top: 15px;
-      /*right: 326.656;*/
-    /*margin-right: 15px;
-}*/
+
 .nav>li>a {
    padding-bottom: 5vw;
     font-size: 2vw;
@@ -172,15 +152,9 @@ margin-top: -5px;
 
 /*For devices 414px and smaller: */
 @media only screen and (max-width: 411px) {
-/*.navbar {
-    position: fixed;
-    margin-top: 15px;
-    
-    margin-right: 15px;
-}*/
+
 
   .nav{
-  /*right: 127px;*/
   text-align: right;
 }
 
@@ -199,12 +173,7 @@ margin-top: -5px;
 
 /*For devices 360px and smaller: */
 @media only screen and (max-width: 360px) {
-/*.navbar {
-    position: fixed;
-    margin-top: 30px;
-   
-    margin-right: 15px;
-}*/
+
 .nav>li>a {
   padding-bottom: 2vw;
     font-size: 2vw;
@@ -217,13 +186,7 @@ margin-top: -5px;
 }
 /*For devices 320px and smaller: */
 @media only screen and (max-width: 320px) {
-  /*.navbar {
-    position: fixed;
-    margin-top: 15px;
-        
-   
-        right: 235.656;
-}*/
+
 .nav>li>a {
   position: relative;
     z-index: 9999;
@@ -235,7 +198,6 @@ margin-top: -5px;
 }
 }
 
-
 .navbar-fixed {
   width: 100px;
   position: fixed;
@@ -243,21 +205,30 @@ margin-top: -5px;
   height: 100%;
   z-index: 999;
   padding-top: 50px;
+ 
 }
+
 .nav>li>a {
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 3vw;
-    font-size: 2vw;
+    margin-top: 2vw;
+    font-size: 2.5vw;
    
 }
+@media only screen and (min-width: 768px) {
 
+.nav>li>a {
+  position: relative;
+    z-index: 9999;
+       color: white;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+   
+}
+ }
 
 .navbar a{
   color: black;
 }
-/*.navbar-fixed-right .navbar-nav > li { 
-  width: 102px;
-}*/
 
