@@ -284,7 +284,7 @@ animation-iteration-count: 1;
   #line li{
       padding-left: 5%;
       padding-right: 5%;
-      /*color: lightgrey;*/
+      color: lightgrey;
    
   }
   .menu-menu a{
@@ -294,9 +294,6 @@ animation-iteration-count: 1;
    margin-right: 30px;
    margin-left: 30px;
   }
-  #starters{
-      background-color: #B0A478;
-  }
 #starters a{
        color: rgb(69, 107, 125);
    font-size: 1.5vw;
@@ -304,13 +301,5 @@ animation-iteration-count: 1;
 }
 #starters p{
        color:black;
-   font-size: 14px;
-}
-.list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
-    /*background-color: #fff;
-    border: 1px solid #ddd;*/
+   font-size: 1vw;
 }
