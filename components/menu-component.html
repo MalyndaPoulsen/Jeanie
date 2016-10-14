@@ -106,17 +106,18 @@
             <img src="img/line.png" alt="line break">
           
           <ul class="list-group">
-            <li>
-              <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
+           
+              <li class="list-group-item" ng-repeat="entree in $ctrl.menu.entrees">
               <h3>
 
-                ROCKY MOUNTAIN TROUT
+                {{entree.name}}
               </h3>
-              <p>Sautéed fresh boneless trout with raspberry vinegar butter sauce, tarragon, parsley and shallots.</p>
-            <h5>$19.00</h5>
-          </li>
+              <p>{{entree.description}}</p>
+            <h5>{{entree.price}}</h5>
+        
 
-          <li>
+          </li>
+          
             <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
             <h3>
 
