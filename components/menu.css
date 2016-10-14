@@ -314,6 +314,9 @@ animation-iteration-count: 1;
     /* background-color: #fff; */
     /* border: 1px solid #ddd; */
 }
+.list-group-item p{
+    background-color: #EADEB6;
+}
 .disclaimer p{
     font-size: 14px;
 }
