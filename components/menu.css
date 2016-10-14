@@ -204,7 +204,7 @@ padding-right: 1.5vw;
       padding-bottom: 0px;
   }*/
   #menubackground{
-    background-image: url('/img/menuPlate.jpg');
+    background-image: url('https://malyndapoulsen.github.io/Jeanie/img/menuPlate.jpg');
    background-repeat: no-repeat; 
     background-size: cover;
     /*display: inline-block;*/
