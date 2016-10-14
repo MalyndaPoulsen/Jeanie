@@ -302,7 +302,7 @@ animation-iteration-count: 1;
 }
 #starters p{
        color:black;
-   font-size: 1vw;
+   font-size: 14px;
 }
 .list-group-item {
     position: relative;
@@ -314,9 +314,7 @@ animation-iteration-count: 1;
     /* background-color: #fff; */
     /* border: 1px solid #ddd; */
 }
-.list-group-item p{
-    font-size: 14px;
-}
+
 .disclaimer p{
     font-size: 14px;
 }
