@@ -7,8 +7,8 @@
         })
    function MenuController() {
          var mc = this;
-   }
-var menu ={
+
+        mc.menu ={
 
 
         entrees:[
@@ -104,5 +104,6 @@ var menu ={
         ],
 
    }
+      }
 
 }())
