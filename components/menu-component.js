@@ -10,7 +10,7 @@
 
         mc.menu ={
 
-     starters:[
+     STARTERS:[
             {
                 name: "Prawns",
                 description: "Poached prawns, avocado and spicy fresh salsa, served in an oversized martini glass",
@@ -27,8 +27,46 @@
                 price: 6.75,
             },
         ],
+          
 
-        entrees:[
+      SALADS: [
+            {
+                name: "House Salad",
+                description: "Bib lettuce and belgian endive with carrot curls, shaved Vidalia sweet onions, fresh peaches, candied pecans and goat cheese",
+                price: 6.75,
+            },
+              {
+                name: "Caesar",
+                description: "Hand-cut romaine hearts tossed with garlic croutons, Reggiano Parmesan and Spanish white anchovies",
+                price: 7.75,
+            },
+        ],
+
+
+             SIDES:[
+            {
+                name: "Couscous",
+                description: "Couscous with chickpeas, golden raisins and scallions",
+                price: 7.50,
+            },
+              {
+                name: "Green Beans",
+                description: "Tempura-fried green beans with citrus aioli",
+                price: 9.75,
+            },
+                 {
+                name: "Yukon Gold Potato",
+                description: "Crisp-fried cakes with crème fraîche and chives",
+                price: 8.50,
+            },
+                   {
+                name: "Rainbow Chard",
+                description: "Braised with candied pistachio vinaigrette",
+                price: 8.25,
+            },
+        ],
+
+        ENTREES:[
             {
                 name: "PRIME RIB",
                 description: "Aged USDA prime rib slow roasted in rock salt and served with au jus, Yorkshire pudding and freshly grated horseradish (8 oz)",
@@ -66,45 +104,9 @@
             },
         ],
 
-  
 
-      salads: [
-            {
-                name: "House Salad",
-                description: "Bib lettuce and belgian endive with carrot curls, shaved Vidalia sweet onions, fresh peaches, candied pecans and goat cheese",
-                price: 6.75,
-            },
-              {
-                name: "Caesar",
-                description: "Hand-cut romaine hearts tossed with garlic croutons, Reggiano Parmesan and Spanish white anchovies",
-                price: 7.75,
-            },
-        ],
 
-             sides:[
-            {
-                name: "Couscous",
-                description: "Couscous with chickpeas, golden raisins and scallions",
-                price: 7.50,
-            },
-              {
-                name: "Green Beans",
-                description: "Tempura-fried green beans with citrus aioli",
-                price: 9.75,
-            },
-                 {
-                name: "Yukon Gold Potato",
-                description: "Crisp-fried cakes with crème fraîche and chives",
-                price: 8.50,
-            },
-                   {
-                name: "Rainbow Chard",
-                description: "Braised with candied pistachio vinaigrette",
-                price: 8.25,
-            },
-        ],
-
-                   desserts:[
+                   DESSERTS:[
             {
                 name: "Carrot Cake-Coconut Terrine",
                 description: "coconut streusel, rum-infused poached pear",
