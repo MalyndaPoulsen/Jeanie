@@ -42,10 +42,10 @@ margin-top: 10%;
 position: relative;
 }
   #menubackground{
-    background-image: url('/Jeanie/img/menuPlate3.jpg');
+    background-image: url('https://malyndapoulsen.github.io/Jeanie/img/menuPlate3.jpg');
    background-repeat: no-repeat; 
     background-size: cover;
-    /*display: inline-block;*/
+   
    width: 100%;
   margin-top: 0;
   z-index: 20;
