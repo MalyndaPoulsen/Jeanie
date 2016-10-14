@@ -309,6 +309,10 @@ animation-iteration-count: 1;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
+    background-color: black !important;
     /* background-color: #fff; */
     /* border: 1px solid #ddd; */
+}
+.disclaimer p{
+    font-size: 14px;
 }
