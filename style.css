@@ -49,6 +49,7 @@
 }
 .navbar{
   position: fixed;
+  padding-top: 5%;
 
 }
 
@@ -64,13 +65,13 @@
    }
 
    @media only screen and (min-width: 992px) {
-  .navbar {
+  /*.navbar {
     position: fixed;
     margin-top: 5px;
   left: -60;
     margin-right: 15px;
     
-}
+}*/
 .nav>li>a {
   position: relative;
     z-index: 9999;
@@ -88,32 +89,26 @@
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 1vw;
-    font-size: 1vw;
+    /*margin-top: 1vw;*/
+    font-size: .5vw;
    
 }
-.nav{
+/*.nav{
   left: 50px;
   text-align: right;
   margin-top: -15px;
-}
+}*/
 }
 
  /*For devices 769px and larger: */
 @media only screen and (min-width: 768px) { 
 
-.navbar{
-  
-  position: fixed;
-  /*left: 0%;*/
-  margin-top: 0px;
-  margin-left: 15px;
-  margin-right: 15px;
-      
-}
+
 .nav{
   text-align: right;
-  margin-top: -35px;
+margin-top: -5px;
+ margin-right: 5px;
+ padding-right:0px;
 }
 
 .nav>li>a {
@@ -121,7 +116,7 @@
   position: relative;
     z-index: 9999;
        color: white;
-    margin-top: 2px;
+    /*margin-top: 1px;*/
     font-size: 1vw;
    
 }
@@ -136,13 +131,13 @@
 
 
 @media only screen and (max-width: 435px) {
-.navbar {
+/*.navbar {
     position: fixed;
     margin-top: 20px;
       /*right: 120;*/
-    margin-right: 15px;
+    /*margin-right: 15px;
 
-}
+}*/
 
 .nav>li>a {
    padding-bottom: 5vw;
@@ -157,12 +152,12 @@
 }
 /*For devices 414px and smaller: */
 @media only screen and (max-width: 414px) {
-.navbar {
+/*.navbar {
     position: fixed;
     margin-top: 15px;
       /*right: 326.656;*/
-    margin-right: 15px;
-}
+    /*margin-right: 15px;
+}*/
 .nav>li>a {
    padding-bottom: 5vw;
     font-size: 2vw;
@@ -177,12 +172,12 @@
 
 /*For devices 414px and smaller: */
 @media only screen and (max-width: 411px) {
-.navbar {
+/*.navbar {
     position: fixed;
     margin-top: 15px;
-      /*right: 390;*/
+    
     margin-right: 15px;
-}
+}*/
 
   .nav{
   /*right: 127px;*/
@@ -204,12 +199,12 @@
 
 /*For devices 360px and smaller: */
 @media only screen and (max-width: 360px) {
-.navbar {
+/*.navbar {
     position: fixed;
     margin-top: 30px;
-    /*right: 170.656;*/
+   
     margin-right: 15px;
-}
+}*/
 .nav>li>a {
   padding-bottom: 2vw;
     font-size: 2vw;
@@ -222,13 +217,13 @@
 }
 /*For devices 320px and smaller: */
 @media only screen and (max-width: 320px) {
-  .navbar {
+  /*.navbar {
     position: fixed;
     margin-top: 15px;
-         /*right: 200.656;*/
+        
    
         right: 235.656;
-}
+}*/
 .nav>li>a {
   position: relative;
     z-index: 9999;
