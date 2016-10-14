@@ -49,7 +49,7 @@
             },
         ],
 
-       appetizers:[
+       starters:[
             {
                 name: "Prawns",
                 description: "Poached prawns, avocado and spicy fresh salsa, served in an oversized martini glass",

@@ -99,15 +99,18 @@
       </div>
     </div>
     <div id="starters" class="row bg-full menus text-center">
-      <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <b><h2>Starters</h2><b>
+<!--
+menu ng-repeat-->
+
+      <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="section in $ctrl.menu">
+        <b><h2>{{section}}</h2><b>
         <div id="line" class="row">
        
             <img src="img/line.png" alt="line break">
           
           <ul class="list-group">
            
-              <li class="list-group-item" ng-repeat="entree in $ctrl.menu.entrees">
+              <li class="list-group-item" ng-repeat="entree in section">
               <h3>{{entree.name}}
               </h3>
               <p>{{entree.description}}</p>
@@ -119,6 +122,7 @@
            
 
         </ul>
+
         <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
