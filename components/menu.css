@@ -294,6 +294,9 @@ animation-iteration-count: 1;
    margin-right: 30px;
    margin-left: 30px;
   }
+  #starters{
+      background-color: #B0A478;
+  }
 #starters a{
        color: rgb(69, 107, 125);
    font-size: 1.5vw;
