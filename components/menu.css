@@ -315,7 +315,7 @@ animation-iteration-count: 1;
     /* border: 1px solid #ddd; */
 }
 .item p{
-    background-color: #EADEB6;
+    font-size: 14px;
 }
 .disclaimer p{
     font-size: 14px;
