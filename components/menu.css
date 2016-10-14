@@ -27,6 +27,35 @@ background-color: black;
     opacity: .8;
     z-index: -2;
 }
+
+.menu-logo img{
+height: 50%; 
+margin-top: 10%; 
+position: relative;
+}
+
+
+@media only screen and (max-width: 414px){ 
+.menu-logo img{
+height: 30%; 
+margin-top: 10%; 
+position: relative;
+}
+  #menubackground{
+    background-image: url('/img/menuPlate3.jpg');
+   background-repeat: no-repeat; 
+    background-size: cover;
+    /*display: inline-block;*/
+   width: 100%;
+  margin-top: 0;
+  z-index: 20;
+    background-attachment: fixed;
+position: relative; 
+height: 600px; 
+margin-right: -15px; 
+margin-left: 0%; 
+  }
+}
 .module, .module-sm, .module-xs {
     background-color:black;
     /*background-attachment: fixed;*/
@@ -183,8 +212,10 @@ padding-right: 1.5vw;
   margin-top: 0;
   z-index: 20;
     background-attachment: fixed;
-position: absolute;
-
+position: relative; 
+height: 600px; 
+margin-right: -15px; 
+margin-left: 0%; 
   }
 
  .menues{
@@ -243,3 +274,32 @@ animation-iteration-count: 1;
   .menus h2{
       margin-top: 10%;
   }
+  .menuList li{
+      display: inline-block;
+     
+  }
+  #line img{
+      width: 80%;
+  }
+  #line li{
+      padding-left: 5%;
+      padding-right: 5%;
+      color: lightgrey;
+   
+  }
+  .menu-menu a{
+   
+      color: lightgrey;
+   font-size: 1.5vw;
+   margin-right: 25%;
+   margin-left: 25%;
+  }
+#starters a{
+       color: rgb(69, 107, 125);
+   font-size: 1.5vw;
+   border-bottom: 1px dotted black;
+}
+#starters p{
+       color:black;
+   font-size: 1vw;
+}

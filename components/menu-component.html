@@ -1,11 +1,10 @@
-<div id="menubackground" style="position: relative; height: 600px; margin-right: -15px; margin-left: 0%;" class="row bg-full"
-  style="text-align: center; ">
-  <div class="container container-fluid">
+<div id="menubackground" class="row bg-full" style="text-align: center; ">
+  <div>
     <!--<img id="menubackground" src="img/menuPlate2.jpg" 
         class="img-responsive" alt="2&quot;he">-->
     <div class="text-center col-sm-12 col-md-12" style="margin-right: 0px; padding-left: 0px; padding-right: 0px;">
-      <div  class="row menu-logo">
-        <img style="height: 50%; margin-top: 10%; position: relative;" id="main-logo" alt="" src="https://static.wixstatic.com/media/3a5df7_10560684773f42c6bec0346c80fa658e~mv2.png/v1/fill/w_720,h_583,al_c,lg_1/3a5df7_10560684773f42c6bec0346c80fa658e~mv2.png"
+      <div class="row menu-logo">
+        <img id="main-logo" alt="" src="https://static.wixstatic.com/media/3a5df7_10560684773f42c6bec0346c80fa658e~mv2.png/v1/fill/w_720,h_583,al_c,lg_1/3a5df7_10560684773f42c6bec0346c80fa658e~mv2.png"
           data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$mainPage.1.$comp-irmumkba.0.0.$image">
       </div>
       <div id="taste" style="text-align: center; color: white;" class="img-responsive">
@@ -23,29 +22,14 @@
     <div style="margin-top: 54px;" class="menuList">
       <h2 class="module-title">Menus</h2>
       <hr>
-      <div>
+      <ul class="menu-menu">
+        <li><a href="#starters" class="section-scroll">Starters</a></li>
+        <li><a href="#salads" class="section-scroll">Salads</a></li>
 
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/brunch.jpg'">Brunch</p>
-        </a>
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/lunch.jpg'">Lunch</p>
-        </a>
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/appetizers.jpg'">Appetizers</p>
-        </a>
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/dinner.jpg'">Dinner</p>
-        </a>
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/wine.jpg'">Wine</p>
-        </a>
-        <a>
-          <p class="btn" class="lead" ng-click="$ctrl.activeMenu = 'img/cocktails.jpg'">Cocktails</p>
-        </a>
-
-      </div>
-
+        <li><a href="#sides" class="section-scroll">Sides</a></li>
+        <li><a href="#entrees" class="section-scroll">Entrees</a></li>
+        <li><a href="#desserts" class="section-scroll">Desserts</a></li>
+      </ul>
       <!--<div>
 
         <a>
@@ -115,13 +99,13 @@
         </div>
       </div>
     </div>
-    <div class="row bg-full menus text-center">
+    <div id="starters" class="row bg-full menus text-center">
       <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <b><h2>Starters</h2><b>
-        <div class="row">
-          <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
+        <div id="line" class="row">
+       
             <img src="img/line.png" alt="line break">
-          </div>
+          
           <ul class="list-group">
             <li>
               <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
@@ -129,7 +113,7 @@
 
                 ROCKY MOUNTAIN TROUT
               </h3>
-              <em><p>Sautéed fresh boneless trout with raspberry vinegar butter sauce, tarragon, parsley and shallots.</p><em>
+              <p>Sautéed fresh boneless trout with raspberry vinegar butter sauce, tarragon, parsley and shallots.</p>
             <h5>$19.00</h5>
           </li>
 
@@ -173,18 +157,19 @@
           </li>
 
         </ul>
+        <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
 
       </div>
 
      
- <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+ <div id="salads" class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <b><h2>Salads</h2><b>
-        <div class="row">
-          <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
+        <div id="line" class="row">
+         
             <img src="img/line.png" alt="line break">
-          </div>
+         
           <ul class="list-group">
             <li>
               <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
@@ -236,17 +221,18 @@
           </li>
 
         </ul>
+        <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
 
       </div>
 
- <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+ <div id="sides" class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <b><h2>Sides</h2><b>
-        <div class="row">
-          <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
+        <div id="line" class="row">
+
             <img src="img/line.png" alt="line break">
-          </div>
+        
           <ul class="list-group">
             <li>
               <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
@@ -298,17 +284,16 @@
           </li>
 
         </ul>
+        <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
 
       </div>
 
- <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+ <div id="entrees" class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <b><h2>Entrees</h2><b>
-        <div class="row">
-          <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
+        <div id="line" class="row">
             <img src="img/line.png" alt="line break">
-          </div>
           <ul class="list-group">
             <li>
               <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
@@ -360,6 +345,7 @@
           </li>
 
         </ul>
+        <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
 
@@ -367,12 +353,10 @@
 
 
 
-       <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
+       <div id="desserts" class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <b><h2>Desserts</h2><b>
-        <div class="row">
-          <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
-            <img src="img/line.png" alt="line break">
-          </div>
+        <div id="line" class="row">  
+            <img src="img/line.png" alt="line break">     
           <ul class="list-group">
             <li>
               <!--<li class="list-group-item" ng-repeat="entree in menu.entrees">-->
@@ -424,6 +408,7 @@
           </li>
 
         </ul>
+        <a href="#menuBar" type="button" class="section-scroll">Top of Menu</a>
         </div>
        
 

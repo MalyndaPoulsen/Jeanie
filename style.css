@@ -203,7 +203,7 @@
 
 
 /*For devices 360px and smaller: */
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
 .navbar {
     position: fixed;
     margin-top: 30px;
@@ -254,9 +254,10 @@
     z-index: 9999;
        color: white;
     margin-top: 3vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
    
 }
+
 
 .navbar a{
   color: black;
