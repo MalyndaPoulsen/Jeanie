@@ -284,7 +284,7 @@ animation-iteration-count: 1;
   #line li{
       padding-left: 5%;
       padding-right: 5%;
-      color: lightgrey;
+      /*color: lightgrey;*/
    
   }
   .menu-menu a{
