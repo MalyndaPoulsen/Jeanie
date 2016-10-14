@@ -102,7 +102,7 @@
 <!--
 menu ng-repeat-->
 
-      <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="section in $ctrl.menu">
+      <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="(section, val) in $ctrl.menu">
         <b><h2>{{section}}</h2><b>
         <div id="line" class="row">
        
@@ -110,7 +110,7 @@ menu ng-repeat-->
           
           <ul class="list-group">
            
-              <li class="list-group-item" ng-repeat="entree in section">
+              <li class="list-group-item" ng-repeat="entree in val">
               <h3>{{entree.name}}
               </h3>
               <p>{{entree.description}}</p>

@@ -10,11 +10,28 @@
 
         mc.menu ={
 
+     starters:[
+            {
+                name: "Prawns",
+                description: "Poached prawns, avocado and spicy fresh salsa, served in an oversized martini glass",
+                price: 8.50,
+            },
+              {
+                name: "Mushrooms",
+                description: "Large Crimini mushrooms filled with Catalan goat cheese",
+                price: 9.75,
+            },
+                 {
+                name: "French Onion Soup",
+                description: "Caramelized onions simmered with beef broth, veal stock and vermouth",
+                price: 6.75,
+            },
+        ],
 
         entrees:[
             {
                 name: "PRIME RIB",
-                description: "Lorem Aged USDA prime rib slow roasted in rock salt and served with au jus, Yorkshire pudding and freshly grated horseradish (8 oz)",
+                description: "Aged USDA prime rib slow roasted in rock salt and served with au jus, Yorkshire pudding and freshly grated horseradish (8 oz)",
                 price: 28.00,
             },
               {
@@ -49,23 +66,7 @@
             },
         ],
 
-       starters:[
-            {
-                name: "Prawns",
-                description: "Poached prawns, avocado and spicy fresh salsa, served in an oversized martini glass",
-                price: 8.50,
-            },
-              {
-                name: "Mushrooms",
-                description: "Large Crimini mushrooms filled with Catalan goat cheese",
-                price: 9.75,
-            },
-                 {
-                name: "French Onion Soup",
-                description: "Caramelized onions simmered with beef broth, veal stock and vermouth",
-                price: 6.75,
-            },
-        ],
+  
 
       salads: [
             {
@@ -101,6 +102,25 @@
                 description: "Braised with candied pistachio vinaigrette",
                 price: 8.25,
             },
+        ],
+
+                   desserts:[
+            {
+                name: "Carrot Cake-Coconut Terrine",
+                description: "coconut streusel, rum-infused poached pear",
+                price: 7.00,
+            },
+              {
+                name: "New York Cheesecake",
+                description: "chocolate and caramel sauces, maple-candied pecans, pumpkin ice cream",
+                price: 7.00,
+            },
+                 {
+                name: "Apple-Brown Sugar Ice Cream Tart",
+                description: "caramelized apple, brown sugar cake, beurre noisette ice cream, house made apple butter",
+                price: 7.00,
+            },
+         
         ],
 
    }
