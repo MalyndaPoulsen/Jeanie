@@ -304,6 +304,9 @@ animation-iteration-count: 1;
        color:black;
    font-size: 16px;
 }
+#starters img{
+    height: 50%;
+}
 .list-group-item {
     position: relative;
     display: block;
