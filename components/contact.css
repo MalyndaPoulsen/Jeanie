@@ -63,6 +63,9 @@ html, a, li, p, h1, h2, h3, h4, h5, {
 #location p, h5, h3, label{
 color: grey;
 }
+#location{
+    display: block;
+}
 #banner h2{
    color: #b4a755; 
 }
